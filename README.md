@@ -1,1 +1,1 @@
-https://ultroa.github.io/central_site/
+https://ultroa.github.io/central
