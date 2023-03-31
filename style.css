@@ -1,0 +1,313 @@
+/*------------------------------------*\
+	COMMONS CLASSES
+\*------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+}
+
+
+/*   Start navigation bar   */
+
+nav {
+  height: 80px;
+  background-color: rgb(20, 0, 49);;
+  border-bottom: 1px solid #555;
+    position: sticky;
+    top: 1px;
+    z-index: 100;
+}
+.logo {
+  padding: 10px;
+  width: auto;
+  float: left;
+}
+.logo img {
+  height: 55px;
+}
+.list-item {
+  float: right;
+  margin-right: 25px;
+  margin-top: 17px;
+}
+.list-item li {
+  float: left;
+  padding: 13px 13px;
+  font-size: 18px;
+  border-radius: 3px;
+  transition: all .7s ease-in-out;
+}
+.list-item li a {
+  color: #EEE;
+}
+.list-item li:hover {
+  background-color: #8742D6;
+}
+
+/*   End navigation bar   */
+
+
+
+
+
+/*   Start nav bar for small screens   */
+
+.icon {
+  display: none;
+}
+.toggle {
+  float: right;
+  margin: 20px;
+  color: #EEE;
+  font-size: 30px;
+  border: 1px solid #EEE;
+  padding: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*   End nav bar for small screens   */
+
+/*   Start media query   */
+
+@media (max-width: 1309px) {
+  .icon {
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: #111;
+    border-bottom: 1px solid #444;
+  }
+  .list-item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -4px;
+    background-color: #222;
+    display: none;
+  }
+  .list-item li {
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #333;
+    float: none;
+  }
+}
+
+div
+{
+    text-align: center;
+}
+
+.round {
+border-radius: 100px; /* Радиус скругления */
+border: 3px solid green; /* Параметры рамки */
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 1.1em;
+}
+
+.features,
+.blog,
+.gallery,
+.clients,
+.prefooter .container-fluid
+{
+    padding-top: 3.3em;
+    padding-bottom: 4.2em;
+}
+
+span.typcn::before, i.typcn::before
+{
+    font-size: 2em;
+}
+
+span.x2:before, i.x2:before
+{
+    font-size: 3.4em;
+}
+
+span.x3:before, i.x3:before
+{
+    font-size: 4.4em;
+}
+
+span.x4:before, i.x4:before
+{
+    font-size: 6em;
+}
+
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+
+.s_back
+{
+        background-color: rgb(20, 0, 49);
+}
+
+.cool_text
+{
+        color: rgb(117, 251, 198)
+}
+
+header .container-fluid
+{
+    background-image: url('https://media.discordapp.net/attachments/1074032256131281057/1090792643614744596/image.png?width=1920&height=1080');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 36px;
+}
+
+.hamburger
+{
+    font-size: 2.3em;
+    color: #0cfc8a;
+}
+
+.hamburger:hover
+{
+  color: #FFF;
+  cursor: pointer;
+}
+
+
+.logo
+{
+    background: none;
+    border: 0px;
+}
+
+.jumbotron
+{
+    background: none;
+    text-align: center;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6,
+.jumbotron small
+{
+    color: #FFFFFF;
+}
+
+.jumbotron p
+{
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+
+/*------------------------------------*\
+	SECTIONS
+\*------------------------------------*/
+
+.number .container-fluid
+{
+    background-color: rgb(20, 0, 49);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opaline
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(20, 0, 49);
+}
+
+.opaline h1,
+.opaline h2,
+.opaline h3,
+.opaline h4,
+.opaline h5,
+.opaline h6,
+.opaline p
+{
+    color: #FFFFFF;
+}
+
+i
+{
+    color: #01ffc2;
+}
+
+.opaline .boxes
+{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border: 1px solid #FFF;
+}
+
+.boxes .odometer.odometer-theme-default
+{
+  font-family: 'Roboto Slab', serif;
+}
+
+.story .container-fluid
+{
+    background-color: rgb(20, 0, 49);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery
+{
+    background-color: rgb(20, 0, 49);
+}
+
+.prefooter .container-fluid
+{
+    background: linear-gradient(
+      rgba(33, 37, 43, 0.6),
+      rgba(33, 37, 43, 0.6)
+    ),
+
+    url(https://unsplash.it/4000/3000?image=528);
+}
+
+.prefooter h1,
+.prefooter h2,
+.prefooter h3,
+.prefooter h4,
+.prefooter h5,
+.prefooter h6,
+.prefooter p
+{
+    background-color: rgb(20, 0, 49);
+}
+
+/*------------------------------------*\
+	FOOTER
+\*------------------------------------*/
+
+footer
+{
+    background-color: rgb(20, 0, 49);
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p
+{
+    color: #FFFFFF;
+}
+
